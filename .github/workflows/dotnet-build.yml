@@ -1,4 +1,4 @@
-name: Executar push a cada semana
+name: Executar push a cada hora
 
 on:
   push:
