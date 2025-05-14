@@ -3,8 +3,7 @@ name: Executar push a cada semana
 on:
   push:
   schedule:
-    - cron: '0 0 * * *'  # Executa todos os dias à meia-noite (UTC)
-
+    - cron: '0 * * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
